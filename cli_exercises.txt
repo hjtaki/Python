@@ -1,0 +1,13 @@
+# Part 3
+
+1.
+history | grep cat | wc -l
+
+2.
+cat /usr/share/dict/words | grep "^a" | wc -l
+
+3.
+cat /usr/share/dict/words | grep "^a.*s$" | wc -l
+
+4. 
+curl -O https://www.canada.ca/en.html
